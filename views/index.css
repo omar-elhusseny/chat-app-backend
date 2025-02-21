@@ -1,0 +1,116 @@
+#user-list {
+    display: flex;
+    gap: 5px;
+}
+
+.user-button {
+    padding: 10px;
+    border: none;
+    background-color: lightgray;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.user-button:hover {
+    background-color: gray;
+    color: white;
+}
+
+#messages-container {
+    /* display: flex;
+    flex-direction: column;
+    gap: 10px; */
+    padding: 10px;
+    height: 400px;
+    overflow-y: auto;
+    border: 2px solid red; /* Debugging: Add a border to check visibility */
+}
+
+.message {
+    width: fit-content;
+    max-width: 40%;
+    padding: 10px;
+    border-radius: 10px;
+    word-wrap: break-word;
+    min-height: 40px; /* Ensure messages have a minimum height */
+}
+
+.sent {
+    margin-left: auto; /* Push to the right */
+    background-color: #4CAF50;
+    color: white;
+}
+
+.received {
+    margin-right: auto; /* Push to the left */
+    background-color: #ddd;
+    color: black;
+}
+
+/* .sent {
+    align-self: flex-end;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.received {
+    align-self: flex-start;
+    background-color: #ddd;
+    color: black;
+} */
+
+
+/* #chat-container{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    border: 1px solid black;
+}
+
+#messages-container {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    width: calc(100% - 20px);
+    height: 70vh;
+    padding: 0 10px;
+    background-color:floralwhite;
+}
+
+#message-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+#message {
+    padding: 10px;
+    outline: none;
+    word-wrap: break-word;
+    flex: 1;
+}
+
+.send-btn {
+    color: black;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.message {
+    max-width: 60%;
+    padding: 10px;
+    border-radius: 10px;
+    word-wrap: break-word;
+}
+
+.sent {
+    align-self: flex-end;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.received {
+    align-self: flex-start;
+    background-color: #ddd;
+    color: black;
+} */

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/socket.io/socket.io.js"></script>
+    <!-- <script defer src="./index.js"></script> -->
+    <link rel="stylesheet" href="./index.css">
+    <title>Chat App</title>
+</head>
+<body>
+    <form id="name-form">
+        <input type="text" id="name" placeholder="Enter your name" required />
+        <button type="submit">Join Chat</button>
+    </form>
+
+    <h1 id="chat">Welcome</h1>
+
+    <div id="user-list"></div> <!-- User list section -->
+
+    <div id="messages-container"></div> <!-- Messages container -->
+
+    <form id="message-form">
+        <input type="text" id="message" placeholder="Type a message..." required />
+        <button class="send-btn" type="submit">Send</button>
+    </form>
+
+    <script src="index.js"></script> <!-- Link to your JavaScript file -->
+
+</body>
+</html>
